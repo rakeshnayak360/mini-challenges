@@ -11,11 +11,13 @@ import PasswordStrength from "./mc/password-stength";
 import TransferList from "./mc/transfer-list";
 import TagInputs from "./mc/tag-inputs";
 import Progressbar from "./mc/progressbar";
+import Header from "./helpers/header";
 
 function App() {
   return (
     <div className="App">
       <Router>
+        <Header />
         <Routes>
           <Route path="/" element={<Home tile="Home" />} />
           <Route
