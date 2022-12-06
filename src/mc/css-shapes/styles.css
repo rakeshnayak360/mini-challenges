@@ -1,0 +1,193 @@
+.allShapes {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.allShapes > div {
+  height: 250px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.shape {
+  margin: auto;
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+  background-color: blueviolet;
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  background-color: blueviolet;
+  border-radius: 50%;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 75px solid transparent;
+  border-right: 75px solid transparent;
+  border-bottom: 150px solid blueviolet;
+}
+
+.heart {
+  /* Modify size here: */
+  --size: 150px;
+
+  position: relative;
+  width: var(--size);
+  height: calc(var(--size) * 0.3);
+}
+
+.heart:before,
+.heart:after {
+  position: absolute;
+  content: "";
+  left: calc(var(--size) * 0.55);
+  top: 0;
+  width: calc(var(--size) * 0.55);
+  height: calc(var(--size) * 0.85);
+  background: blueviolet;
+  border-radius: calc(var(--size) * 0.55) calc(var(--size) * 0.55) 0 0;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
+}
+
+.heart:after {
+  left: 0;
+  transform: rotate(45deg);
+  transform-origin: 100% 100%;
+}
+.points-star-5 {
+  /* Modify size here: */
+  --size: 150px;
+  --half-size: calc(var(--size) / 2);
+
+  position: relative;
+  display: block;
+  color: blueviolet;
+  width: 0px;
+  height: 0px;
+  border-right: var(--half-size) solid transparent;
+  border-bottom: calc(var(--half-size) * 0.7) solid blueviolet;
+  border-left: var(--half-size) solid transparent;
+  transform: rotate(35deg);
+  margin: 60px auto 0;
+}
+.points-star-5:before {
+  border-bottom: calc(var(--half-size) * 0.8) solid blueviolet;
+  border-left: calc(var(--half-size) * 0.3) solid transparent;
+  border-right: calc(var(--half-size) * 0.3) solid transparent;
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: calc(var(--half-size) * 0.45 * -1);
+  left: calc(var(--half-size) * 0.65 * -1);
+  display: block;
+  content: "";
+  transform: rotate(-35deg);
+}
+.points-star-5:after {
+  position: absolute;
+  display: block;
+  color: blueviolet;
+  top: calc(var(--half-size) * 0.03);
+  left: calc(var(--half-size) * -1.05);
+  width: 0px;
+  height: 0px;
+  border-right: var(--half-size) solid transparent;
+  border-bottom: calc(var(--half-size) * 0.7) solid blueviolet;
+  border-left: var(--half-size) solid transparent;
+  transform: rotate(-70deg);
+  content: "";
+}
+
+.diamond-square {
+  width: 0;
+  height: 0;
+  border: 75px solid transparent;
+  border-bottom-color: blueviolet;
+  position: relative;
+  top: -75px;
+}
+.diamond-square:after {
+  content: "";
+  position: absolute;
+  left: -75px;
+  top: 75px;
+  width: 0;
+  height: 0;
+  border: 75px solid transparent;
+  border-top-color: blueviolet;
+}
+
+.tick {
+  width: 50px;
+  height: 90px;
+  border: 30px solid blueviolet;
+  border-left: 0;
+  border-top: 0;
+  transform: rotate(45deg);
+}
+
+.cone {
+  width: 0;
+  height: 0;
+  border-left: 90px solid transparent;
+  border-right: 90px solid transparent;
+  border-top: 150px solid blueviolet;
+  border-radius: 50%;
+}
+
+.plus {
+  background: blueviolet;
+  height: 150px;
+  position: relative;
+  width: 20px;
+}
+.plus:after {
+  background: blueviolet;
+  content: "";
+  height: 20px;
+  left: -65px;
+  position: absolute;
+  top: 65px;
+  width: 150px;
+}
+
+.flag {
+  width: 150px;
+  height: 150px;
+  box-sizing: content-box;
+  padding-top: 15px;
+  position: relative;
+  background: blueviolet;
+}
+.flag:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 40px solid #fff;
+  border-left: 75px solid transparent;
+  border-right: 75px solid transparent;
+}
+
+.oval {
+  width: 150px;
+  height: 120px;
+  border-radius: 50%;
+  background: blueviolet;
+}
+
+@media (max-width: 767px) {
+  .allShapes {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
