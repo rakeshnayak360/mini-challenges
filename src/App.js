@@ -28,7 +28,7 @@ function App() {
         <Routes>
           <Route
             exact
-            path="/"
+            path="/mini-challenges/"
             element={
               <Parentcomponent
                 component={<Dashboard />}
