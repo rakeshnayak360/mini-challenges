@@ -10,7 +10,7 @@ const Dashboard = () => {
           return (
             <div className="challengeBox" key={key}>
               {menu.isNew && <div className="ribbon">{menu.ribbonTitle}</div>}
-              <a href={"/" + menu.link}>{menu.title}</a>
+              <a href={"/mini-challenges/" + menu.link}>{menu.title}</a>
             </div>
           );
         })}
