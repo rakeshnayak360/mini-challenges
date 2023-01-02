@@ -10,7 +10,7 @@ const Header = ({ title, hideLink }) => {
         </a>
       )}
       <h1>{title}</h1>
-      <a href="/" target="_blank">
+      <a href="https://github.com/rakeshnayak360" target="_blank">
         <img className="githubIcon" src={github} alt="github" />
       </a>
     </div>
