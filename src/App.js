@@ -24,7 +24,7 @@ import StarRating from "./mc/star-rating";
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router Basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route
             exact
