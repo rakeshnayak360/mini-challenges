@@ -1,5 +1,10 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  HashRouter,
+} from "react-router-dom";
 
 // import challenges from "./helpers/challenges";
 
@@ -24,11 +29,11 @@ import StarRating from "./mc/star-rating";
 function App() {
   return (
     <div className="App">
-      <Router basename="/mini-challenges">
+      <HashRouter>
         <Routes>
           <Route
             exact
-            path="/mini-challenges"
+            path="/"
             element={
               <Parentcomponent
                 component={<Dashboard />}
@@ -137,7 +142,7 @@ function App() {
             }
           /> */}
         </Routes>
-      </Router>
+      </HashRouter>
     </div>
   );
 }
