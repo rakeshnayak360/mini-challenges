@@ -5,7 +5,7 @@ const Header = ({ title, hideLink }) => {
   return (
     <div className="header">
       {!hideLink && (
-        <a href="/" className="homeLink">
+        <a href="/mini-challenges" className="homeLink">
           Home
         </a>
       )}
