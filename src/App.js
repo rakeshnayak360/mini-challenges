@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  HashRouter,
-} from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 // import challenges from "./helpers/challenges";
 
@@ -29,7 +24,7 @@ import StarRating from "./mc/star-rating";
 function App() {
   return (
     <div className="App">
-      <HashRouter>
+      <Router>
         <Routes>
           <Route
             exact
@@ -142,7 +137,7 @@ function App() {
             }
           /> */}
         </Routes>
-      </HashRouter>
+      </Router>
     </div>
   );
 }
