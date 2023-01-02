@@ -24,11 +24,11 @@ import StarRating from "./mc/star-rating";
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="/mini-challenges">
         <Routes>
           <Route
             exact
-            path="/"
+            path="/mini-challenges"
             element={
               <Parentcomponent
                 component={<Dashboard />}
