@@ -1,0 +1,61 @@
+.align-center {
+  text-align: center;
+}
+
+.challengesList {
+  text-align: center;
+  list-style: none;
+  display: grid;
+  width: 90%;
+  margin: auto;
+  gap: 50px;
+  grid-auto-rows: 100px;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.challengeBox {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  color: rgb(223, 132, 20);
+  transition: 0.1s;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.challengeBox a {
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+  width: 100%;
+  color: inherit;
+  height: 100px;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.challengeBox:hover {
+  color: #fff;
+  transform: scale(1.1);
+  background-color: rgb(223, 132, 20);
+}
+
+.ribbon {
+  position: absolute;
+  background-color: #f00;
+  color: #fff;
+  transform: rotate(-40deg);
+  width: 120px;
+  left: -40px;
+  top: 10px;
+}
+
+@media (max-width: 767px) {
+  .challengesList {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

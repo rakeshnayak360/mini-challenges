@@ -7,9 +7,12 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
+    {console.log(`#   ______   _______ ___   _ _______ _______ __   __   __    _ _______ __   __ _______ ___   _ 
+#  |    _ | |   _   |   | | |       |       |  | |  | |  |  | |   _   |  | |  |   _   |   | | |
+#  |   | || |  |_|  |   |_| |    ___|  _____|  |_|  | |   |_| |  |_|  |  |_|  |  |_|  |   |_| |
+#  |   |_||_|       |      _|   |___| |_____|       | |       |       |       |       |      _|
+#  |    __  |       |     |_|    ___|_____  |       | |  _    |       |_     _|       |     |_ 
+#  |   |  | |   _   |    _  |   |___ _____| |   _   | | | |   |   _   | |   | |   _   |    _  |
+#  |___|  |_|__| |__|___| |_|_______|_______|__| |__| |_|  |__|__| |__| |___| |__| |__|___| |_|`)}
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
