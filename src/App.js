@@ -7,7 +7,7 @@ import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Parentcomponent from "./parentComponent";
 import Dashboard from "./mc/dashboard";
 import StarRating from "./mc/star-rating";
-// import Counter from "./mc/counter";
+import Counter from "./mc/counter";
 // import Cssshapes from "./mc/css-shapes";
 // import PasswordStrength from "./mc/password-stength";
 // import TransferList from "./mc/transfer-list";
@@ -43,13 +43,13 @@ function App() {
               <Parentcomponent component={<StarRating />} title="Star Rating" />
             }
           />
-          {/*<Route
+          <Route
             path="/counter"
             element={
               <Parentcomponent component={<Counter />} title="Counter" />
             }
           />
-          <Route
+          {/*<Route
             path="/css-shapes"
             element={
               <Parentcomponent component={<Cssshapes />} title="CSS Shapes" />

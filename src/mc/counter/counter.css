@@ -1,0 +1,37 @@
+.countValue {
+  font-size: 5em;
+  line-height: normal;
+  margin: 30px auto;
+}
+
+.counterBox .countBtns button {
+  width: 75px;
+  font-size: 30px;
+  padding: 10px;
+  margin: 10px;
+  border: solid 1px #000;
+  cursor: pointer;
+  background-color: aquamarine;
+}
+.countBtns button:hover {
+  color: #fff;
+  background-color: rgb(25, 103, 99);
+}
+
+.counterBox .resetBtn {
+  display: block;
+  font-size: 20px;
+  padding: 10px 30px;
+  margin: 30px auto;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  background-color: brown;
+}
+
+.changeAmountBox input {
+  font-size: 20px;
+  padding: 10px;
+  width: 100px;
+  font-weight: bold;
+}
