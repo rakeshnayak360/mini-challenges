@@ -8,7 +8,7 @@ import Parentcomponent from "./parentComponent";
 import Dashboard from "./mc/dashboard";
 import StarRating from "./mc/star-rating";
 import Counter from "./mc/counter";
-// import Cssshapes from "./mc/css-shapes";
+import Cssshapes from "./mc/css-shapes";
 // import PasswordStrength from "./mc/password-stength";
 // import TransferList from "./mc/transfer-list";
 // import TagInputs from "./mc/tag-inputs";
@@ -49,13 +49,13 @@ function App() {
               <Parentcomponent component={<Counter />} title="Counter" />
             }
           />
-          {/*<Route
+          <Route
             path="/css-shapes"
             element={
               <Parentcomponent component={<Cssshapes />} title="CSS Shapes" />
             }
           />
-          <Route
+          {/*<Route
             path="/password-strength"
             element={
               <Parentcomponent

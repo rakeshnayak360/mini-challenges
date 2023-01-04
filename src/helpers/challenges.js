@@ -5,7 +5,7 @@ const challenges = [
     component: "StarRating",
   },
   { title: "Counter", link: "counter" },
-  // { title: "CSS Shapes", link: "css-shapes" },
+  { title: "CSS Shapes", link: "css-shapes" },
   // { title: "Password Strength", link: "password-strength" },
   // { title: "Transfer List", link: "transfer-list" },
   // { title: "Tag Inputs", link: "tag-inputs", isNew: true, ribbonTitle: "New" },
