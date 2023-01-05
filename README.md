@@ -5,4 +5,6 @@ Javascript mini challenges using React JS
 
 [Couter](https://rakeshnayak360.github.io/mini-challenges/#/counter)
 
-[CSS Shapes](https://rakeshnayak360.github.io/mini-challenges/#/css-shapes)
+[CSS shapes](https://rakeshnayak360.github.io/mini-challenges/#/css-shapes)
+
+[Password strength](https://rakeshnayak360.github.io/mini-challenges/#/password-strength)
