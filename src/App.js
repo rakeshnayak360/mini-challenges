@@ -9,7 +9,7 @@ import Dashboard from "./mc/dashboard";
 import StarRating from "./mc/star-rating";
 import Counter from "./mc/counter";
 import Cssshapes from "./mc/css-shapes";
-// import PasswordStrength from "./mc/password-stength";
+import PasswordStrength from "./mc/password-stength";
 // import TransferList from "./mc/transfer-list";
 // import TagInputs from "./mc/tag-inputs";
 // import Progressbar from "./mc/progressbar";
@@ -55,7 +55,7 @@ function App() {
               <Parentcomponent component={<Cssshapes />} title="CSS Shapes" />
             }
           />
-          {/*<Route
+          <Route
             path="/password-strength"
             element={
               <Parentcomponent
@@ -64,7 +64,7 @@ function App() {
               />
             }
           />
-          <Route
+          {/*<Route
             path="/transfer-list"
             element={
               <Parentcomponent
