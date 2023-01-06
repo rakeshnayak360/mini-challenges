@@ -69,6 +69,7 @@ const TransferList = () => {
   return (
     <div className="transferList">
       <div className="box leftBox">
+        <p>test</p>
         <ul>
           {leftItems.map((item, key) => {
             return (
