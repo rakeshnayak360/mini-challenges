@@ -19,7 +19,8 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  color: rgb(223, 132, 20);
+  color: #32464d;
+  background-color: #ffffff;
   transition: 0.1s;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
@@ -41,7 +42,7 @@
 .challengeBox:hover {
   color: #fff;
   transform: scale(1.1);
-  background-color: rgb(223, 132, 20);
+  background-color: #32464d;
 }
 
 .ribbon {

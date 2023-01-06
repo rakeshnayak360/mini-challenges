@@ -1,0 +1,46 @@
+.transferList {
+  display: flex;
+  width: 900px;
+  margin: auto;
+  max-width: 100%;
+  justify-content: space-between;
+}
+
+.transferList > div {
+  border: solid 1px #000;
+  flex: auto;
+  padding: 10px;
+  flex-basis: 0;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.buttonGroup {
+  display: flex;
+  flex-direction: column;
+  max-width: 100px;
+  justify-content: center;
+}
+.buttonGroup button {
+  margin: 10px 0;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 20px;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  background-color: blueviolet;
+}
+
+.box {
+  text-align: left;
+}
+
+.box li {
+  padding: 10px 0;
+}

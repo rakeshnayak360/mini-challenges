@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
+import * as serviceWorker from "./serviceWorker";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -16,3 +17,5 @@ root.render(
 #  |___|  |_|__| |__|___| |_|_______|_______|__| |__| |_|  |__|__| |__| |___| |__| |__|___| |_|`)}
   </React.StrictMode>
 );
+
+serviceWorker.register();
