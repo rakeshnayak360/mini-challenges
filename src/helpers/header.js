@@ -11,7 +11,7 @@ const Header = ({ title, hideLink }) => {
       )}
       <h1>{title}</h1>
       <a href="https://github.com/rakeshnayak360">
-        <img className="githubIcon" src={github} alt="github page" />
+        <img className="githubIcon" src={github} alt="github" />
       </a>
     </div>
   );
