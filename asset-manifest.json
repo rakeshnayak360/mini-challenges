@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/mini-challenges/static/css/main.83493746.css",
-    "main.js": "/mini-challenges/static/js/main.879e382e.js",
+    "main.js": "/mini-challenges/static/js/main.bcc0ffb7.js",
     "static/media/github.png": "/mini-challenges/static/media/github.12d35635476b6e47d746.png",
     "index.html": "/mini-challenges/index.html",
     "main.83493746.css.map": "/mini-challenges/static/css/main.83493746.css.map",
-    "main.879e382e.js.map": "/mini-challenges/static/js/main.879e382e.js.map"
+    "main.bcc0ffb7.js.map": "/mini-challenges/static/js/main.bcc0ffb7.js.map"
   },
   "entrypoints": [
     "static/css/main.83493746.css",
-    "static/js/main.879e382e.js"
+    "static/js/main.bcc0ffb7.js"
   ]
 }
