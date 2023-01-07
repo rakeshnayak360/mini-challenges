@@ -8,7 +8,7 @@ const challenges = [
   { title: "CSS Shapes", link: "css-shapes" },
   { title: "Password Strength", link: "password-strength" },
   { title: "Transfer List", link: "transfer-list" },
-  // { title: "Tag Inputs", link: "tag-inputs", isNew: true, ribbonTitle: "New" },
+  { title: "Tag Inputs", link: "tag-inputs", isNew: true, ribbonTitle: "New" },
   // {
   //   title: "Progress bar",
   //   link: "progress-bar",

@@ -73,13 +73,13 @@ function App() {
               />
             }
           />
-          {/*<Route
+          <Route
             path="/tag-inputs"
             element={
               <Parentcomponent component={<TagInputs />} title="Tag Inputs" />
             }
           />
-          <Route
+          {/*<Route
             path="/search-filter"
             element={
               <Parentcomponent
