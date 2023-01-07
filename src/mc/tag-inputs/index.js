@@ -6,7 +6,7 @@ const TagInputs = () => {
   const textInput = useRef(null);
 
   const handleInputChange = (event) => {
-    if (event.keyCode == "13") {
+    if (parseInt(event.keyCode) === 13) {
       if (event.target.value !== "") {
         setTags([...tags, event.target.value]);
         textInput.current.value = "";
