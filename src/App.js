@@ -11,7 +11,7 @@ import Counter from "./mc/counter";
 import Cssshapes from "./mc/css-shapes";
 import PasswordStrength from "./mc/password-stength";
 import TransferList from "./mc/transfer-list";
-// import TagInputs from "./mc/tag-inputs";
+import TagInputs from "./mc/tag-inputs";
 // import Progressbar from "./mc/progressbar";
 // import Searchfilter from "./mc/search-filter";
 // import Pixelart from "./mc/pixel-art";
