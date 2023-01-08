@@ -1,0 +1,45 @@
+.search-challenge {
+  width: 90%;
+  margin: 20px auto;
+}
+.searchField {
+  padding: 10px;
+  width: calc(100% - 25px);
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.search-challenge .MainContainer {
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.StyleCard {
+  width: calc(33.33% - 10px);
+  padding: 20px;
+  overflow: auto;
+  box-shadow: 0 0 15px #dadada;
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+.noResult {
+  padding: 50px;
+  text-align: center;
+  flex-direction: column;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.noResult h2 span {
+  color: #f00;
+}
+
+.noResult img {
+  width: 150px;
+}

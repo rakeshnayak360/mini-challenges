@@ -13,10 +13,10 @@ const challenges = [
   //   title: "Progress bar",
   //   link: "progress-bar",
   // },
-  // {
-  //   title: "Search/Filter",
-  //   link: "search-filter",
-  // },
+  {
+    title: "Search/Filter",
+    link: "search-filter",
+  },
   // {
   //   title: "Pixel Art",
   //   link: "pixel-art",
