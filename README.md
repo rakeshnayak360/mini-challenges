@@ -9,3 +9,7 @@
 
 [Transfer list](https://rakeshnayak360.github.io/mini-challenges/#/transfer-list)
 
+[Tag inputs](https://rakeshnayak360.github.io/mini-challenges/#/tag-inputs)
+
+[Searc/filter](https://rakeshnayak360.github.io/mini-challenges/#/search-filter)
+
