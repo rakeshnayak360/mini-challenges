@@ -14,7 +14,7 @@ import TransferList from "./mc/transfer-list";
 import TagInputs from "./mc/tag-inputs";
 // import Progressbar from "./mc/progressbar";
 import Searchfilter from "./mc/search-filter";
-// import Pixelart from "./mc/pixel-art";
+import Pixelart from "./mc/pixel-art";
 // import Passwordgenerator from "./mc/password-generator";
 // import Todolist from "./mc/todo-list";
 // import Gradientgenerator from "./mc/gradient-generator";
@@ -88,13 +88,13 @@ function App() {
               />
             }
           />
-          {/*<Route
+          <Route
             path="/pixel-art"
             element={
               <Parentcomponent component={<Pixelart />} title="Pixel Art" />
             }
           />
-          <Route
+          {/*<Route
             path="/password-generator"
             element={
               <Parentcomponent

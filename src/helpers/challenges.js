@@ -17,12 +17,12 @@ const challenges = [
     title: "Search/Filter",
     link: "search-filter",
   },
-  // {
-  //   title: "Pixel Art",
-  //   link: "pixel-art",
-  //   isNew: true,
-  //   ribbonTitle: "New",
-  // },
+  {
+    title: "Pixel Art",
+    link: "pixel-art",
+    isNew: true,
+    ribbonTitle: "New",
+  },
   // {
   //   title: "Password Generator",
   //   link: "password-generator",
