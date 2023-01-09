@@ -1,4 +1,11 @@
-# Javascript mini challenges using React JS
+<div align="center">
+  <h1>Javascript mini challenges using React JS</h1>
+  <img src="https://github.com/rakeshnayak360/mini-challenges/blob/52a21f9b4fbbaa3064e38e196b55b2f2a5d63236/src/helpers/assets/coding.png" width="500" />
+</div>
+</div>
+
+
+## Here are some of the challenges which I have done.
 [Star rating](https://rakeshnayak360.github.io/mini-challenges/#/star-rating)
 
 [Couter](https://rakeshnayak360.github.io/mini-challenges/#/counter)
