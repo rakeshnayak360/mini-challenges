@@ -13,3 +13,4 @@
 
 [Searc/filter](https://rakeshnayak360.github.io/mini-challenges/#/search-filter)
 
+[Pixel art](https://rakeshnayak360.github.io/mini-challenges/#/pixel-art)
