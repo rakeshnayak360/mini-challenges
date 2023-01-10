@@ -4,8 +4,8 @@
 </div>
 </div>
 
-
 ## Here are some of the challenges which I have done.
+
 [Star rating](https://rakeshnayak360.github.io/mini-challenges/#/star-rating)
 
 [Couter](https://rakeshnayak360.github.io/mini-challenges/#/counter)
@@ -21,3 +21,5 @@
 [Searc/filter](https://rakeshnayak360.github.io/mini-challenges/#/search-filter)
 
 [Pixel art](https://rakeshnayak360.github.io/mini-challenges/#/pixel-art)
+
+[Password generator](https://rakeshnayak360.github.io/mini-challenges/#/password-generator)

@@ -15,7 +15,7 @@ import TagInputs from "./mc/tag-inputs";
 // import Progressbar from "./mc/progressbar";
 import Searchfilter from "./mc/search-filter";
 import Pixelart from "./mc/pixel-art";
-// import Passwordgenerator from "./mc/password-generator";
+import Passwordgenerator from "./mc/password-generator";
 // import Todolist from "./mc/todo-list";
 // import Gradientgenerator from "./mc/gradient-generator";
 // import Guessthenumber from "./mc/guess-the-number";
@@ -94,7 +94,7 @@ function App() {
               <Parentcomponent component={<Pixelart />} title="Pixel Art" />
             }
           />
-          {/*<Route
+          <Route
             path="/password-generator"
             element={
               <Parentcomponent
@@ -103,7 +103,7 @@ function App() {
               />
             }
           />
-          <Route
+          {/*<Route
             path="/todo-list"
             element={
               <Parentcomponent component={<Todolist />} title="Todo List" />

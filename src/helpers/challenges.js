@@ -23,10 +23,10 @@ const challenges = [
     isNew: true,
     ribbonTitle: "New",
   },
-  // {
-  //   title: "Password Generator",
-  //   link: "password-generator",
-  // },
+  {
+    title: "Password Generator",
+    link: "password-generator",
+  },
   // {
   //   title: "Todo List",
   //   link: "todo-list",
