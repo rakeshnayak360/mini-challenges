@@ -28,7 +28,7 @@ jobs:
         cache: 'npm'
     - run: npm ci
       env:
-         CI: false
+         CI: ''
     - run: npm run build
 
     - name: Deploy 🚀
