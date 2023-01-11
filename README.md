@@ -23,3 +23,5 @@
 [Pixel art](https://rakeshnayak360.github.io/mini-challenges/#/pixel-art)
 
 [Password generator](https://rakeshnayak360.github.io/mini-challenges/#/password-generator)
+
+[Todo list](https://rakeshnayak360.github.io/mini-challenges/#/todo-list)

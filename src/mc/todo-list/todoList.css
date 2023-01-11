@@ -1,0 +1,39 @@
+.todolistChallenge {
+  width: 500px;
+  max-width: 90%;
+  margin: auto;
+}
+
+.todoInputBox input {
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 15px;
+  border: solid 2px #ccc;
+}
+
+.todolist-container {
+  margin-top: 10px;
+}
+
+.todolist-container .task {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eaeaea;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+.task p {
+  margin: 0;
+  padding: 0;
+}
+
+.todo-action button {
+  cursor: pointer;
+  border: none;
+  text-decoration: underline;
+  background: none;
+}

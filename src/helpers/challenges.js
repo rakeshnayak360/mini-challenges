@@ -27,10 +27,10 @@ const challenges = [
     title: "Password Generator",
     link: "password-generator",
   },
-  // {
-  //   title: "Todo List",
-  //   link: "todo-list",
-  // },
+  {
+    title: "Todo List",
+    link: "todo-list",
+  },
   // {
   //   title: "Gradient generator",
   //   link: "gradient-generator",

@@ -16,7 +16,7 @@ import TagInputs from "./mc/tag-inputs";
 import Searchfilter from "./mc/search-filter";
 import Pixelart from "./mc/pixel-art";
 import Passwordgenerator from "./mc/password-generator";
-// import Todolist from "./mc/todo-list";
+import Todolist from "./mc/todo-list";
 // import Gradientgenerator from "./mc/gradient-generator";
 // import Guessthenumber from "./mc/guess-the-number";
 // import LightDarkmode from "./mc/light-dark";
@@ -103,13 +103,13 @@ function App() {
               />
             }
           />
-          {/*<Route
+          <Route
             path="/todo-list"
             element={
               <Parentcomponent component={<Todolist />} title="Todo List" />
             }
           />
-          <Route
+          {/*<Route
             path="/gradient-generator"
             element={
               <Parentcomponent
