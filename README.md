@@ -25,3 +25,7 @@
 [Password generator](https://rakeshnayak360.github.io/mini-challenges/#/password-generator)
 
 [Todo list](https://rakeshnayak360.github.io/mini-challenges/#/todo-list)
+
+<hr />
+
+![visitor badge](https://visitor-badge.glitch.me/badge?page_id=rakeshnayak360/mini-challenges.visitor-badge)
