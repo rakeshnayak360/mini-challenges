@@ -6,6 +6,8 @@
 
 ## Here are some of the challenges which I have done.
 
+[Dashboard](https://rakeshnayak360.github.io/mini-challenges/)
+
 [Star rating](https://rakeshnayak360.github.io/mini-challenges/#/star-rating)
 
 [Couter](https://rakeshnayak360.github.io/mini-challenges/#/counter)
@@ -25,6 +27,8 @@
 [Password generator](https://rakeshnayak360.github.io/mini-challenges/#/password-generator)
 
 [Todo list](https://rakeshnayak360.github.io/mini-challenges/#/todo-list)
+
+[Gradient generator](https://rakeshnayak360.github.io/mini-challenges/#/gradient-generator)
 
 <hr />
 

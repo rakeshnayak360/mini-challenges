@@ -31,10 +31,10 @@ const challenges = [
     title: "Todo List",
     link: "todo-list",
   },
-  // {
-  //   title: "Gradient generator",
-  //   link: "gradient-generator",
-  // },
+  {
+    title: "Gradient generator",
+    link: "gradient-generator",
+  },
   // {
   //   title: "Guess the number",
   //   link: "guess-the-number",
