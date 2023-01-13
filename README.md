@@ -30,6 +30,8 @@
 
 [Gradient generator](https://rakeshnayak360.github.io/mini-challenges/#/gradient-generator)
 
+[Guess the number](https://rakeshnayak360.github.io/mini-challenges/#/guess-the-number)
+
 <hr />
 
 ![visitor badge](https://visitor-badge.glitch.me/badge?page_id=rakeshnayak360/mini-challenges.visitor-badge)

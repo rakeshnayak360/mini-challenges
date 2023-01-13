@@ -35,12 +35,12 @@ const challenges = [
     title: "Gradient generator",
     link: "gradient-generator",
   },
-  // {
-  //   title: "Guess the number",
-  //   link: "guess-the-number",
-  //   isNew: true,
-  //   ribbonTitle: "New",
-  // },
+  {
+    title: "Guess the number",
+    link: "guess-the-number",
+    isNew: true,
+    ribbonTitle: "New",
+  },
   // {
   //   title: "Light-Dark Mode",
   //   link: "light-dark-mode",
