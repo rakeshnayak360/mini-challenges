@@ -41,12 +41,12 @@ const challenges = [
     isNew: true,
     ribbonTitle: "New",
   },
-  // {
-  //   title: "Light-Dark Mode",
-  //   link: "light-dark-mode",
-  //   isNew: true,
-  //   ribbonTitle: "New",
-  // },
+  {
+    title: "Light-Dark Mode",
+    link: "light-dark-mode",
+    isNew: true,
+    ribbonTitle: "New",
+  },
 ];
 
 export default challenges;

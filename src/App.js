@@ -19,7 +19,7 @@ import Passwordgenerator from "./mc/password-generator";
 import Todolist from "./mc/todo-list";
 import Gradientgenerator from "./mc/gradient-generator";
 import Guessthenumber from "./mc/guess-the-number";
-// import LightDarkmode from "./mc/light-dark";
+import LightDarkmode from "./mc/light-dark";
 
 function App() {
   return (
@@ -127,7 +127,7 @@ function App() {
               />
             }
           />
-          {/*<Route
+          <Route
             path="/light-dark-mode"
             element={
               <Parentcomponent
@@ -135,7 +135,7 @@ function App() {
                 title="Light-Dark mode"
               />
             }
-          /> */}
+          />
         </Routes>
       </Router>
     </div>

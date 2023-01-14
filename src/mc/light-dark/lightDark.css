@@ -1,0 +1,18 @@
+.lightDarkChallenge .dark {
+  background: #000000 !important;
+}
+.lightDarkChallenge .dark * {
+  color: #ffffff !important;
+}
+
+.lightDarkChallenge .dark a {
+  color: #0008ff !important;
+}
+
+.lightDarkChallenge .themBox {
+  width: 500px;
+  max-width: 100%;
+  margin: auto;
+  padding: 20px;
+  border: solid 1px #000000;
+}
