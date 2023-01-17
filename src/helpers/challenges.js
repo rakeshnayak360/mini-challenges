@@ -47,6 +47,12 @@ const challenges = [
     isNew: true,
     ribbonTitle: "New",
   },
+  {
+    title: "Color generator",
+    link: "color-generator",
+    isNew: true,
+    ribbonTitle: "New",
+  },
 ];
 
 export default challenges;

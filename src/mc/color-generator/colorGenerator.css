@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+
+.colorgenerator-challenge .box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-family: "Quicksand", sans-serif;
+}
+
+.colorgenerator-challenge .box h6 {
+  text-transform: uppercase;
+  font-family: "Quicksand", sans-serif !important;
+}
+
+.colorgenerator-challenge .box.light {
+  color: #000000;
+}
+
+.colorgenerator-challenge .box.dark {
+  color: #fff;
+}
+
+.colorgenerator-challenge .fixedText {
+  position: fixed;
+  bottom: 20px;
+  text-align: center;
+  left: 0;
+  width: 100%;
+  font-size: 12px;
+}

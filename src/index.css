@@ -27,6 +27,8 @@ body {
   align-items: center;
   justify-content: space-between;
   border-bottom: solid #ccc 2px;
+  position: relative;
+  z-index: 1;
 }
 
 .header h1 {

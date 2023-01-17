@@ -20,6 +20,7 @@ import Todolist from "./mc/todo-list";
 import Gradientgenerator from "./mc/gradient-generator";
 import Guessthenumber from "./mc/guess-the-number";
 import LightDarkmode from "./mc/light-dark";
+import Colorgenerator from "./mc/color-generator";
 
 function App() {
   return (
@@ -133,6 +134,15 @@ function App() {
               <Parentcomponent
                 component={<LightDarkmode />}
                 title="Light-Dark mode"
+              />
+            }
+          />
+          <Route
+            path="/color-generator"
+            element={
+              <Parentcomponent
+                component={<Colorgenerator />}
+                title="Color generator"
               />
             }
           />
