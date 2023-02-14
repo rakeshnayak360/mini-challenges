@@ -1,0 +1,19 @@
+.countwords-challenge {
+  width: 600px;
+  max-width: 100%;
+  margin: auto;
+}
+
+.countwords-challenge textarea {
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  box-sizing: border-box;
+  resize: none;
+}
+
+.countwords-challenge .word-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

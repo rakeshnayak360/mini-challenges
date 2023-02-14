@@ -21,6 +21,7 @@ import Gradientgenerator from "./mc/gradient-generator";
 import Guessthenumber from "./mc/guess-the-number";
 import LightDarkmode from "./mc/light-dark";
 import Colorgenerator from "./mc/color-generator";
+import Countwords from "./mc/count-words";
 
 function App() {
   return (
@@ -144,6 +145,12 @@ function App() {
                 component={<Colorgenerator />}
                 title="Color generator"
               />
+            }
+          />
+          <Route
+            path="/count-words"
+            element={
+              <Parentcomponent component={<Countwords />} title="Count words" />
             }
           />
         </Routes>

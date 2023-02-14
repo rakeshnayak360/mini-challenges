@@ -53,6 +53,12 @@ const challenges = [
     isNew: true,
     ribbonTitle: "New",
   },
+  {
+    title: "Count words",
+    link: "count-words",
+    isNew: true,
+    ribbonTitle: "New",
+  },
 ];
 
 export default challenges;
