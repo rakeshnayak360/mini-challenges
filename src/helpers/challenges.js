@@ -44,18 +44,26 @@ const challenges = [
   {
     title: "Light-Dark Mode",
     link: "light-dark-mode",
-    isNew: true,
-    ribbonTitle: "New",
   },
   {
     title: "Color generator",
     link: "color-generator",
-    isNew: true,
-    ribbonTitle: "New",
   },
   {
     title: "Count words",
     link: "count-words",
+    isNew: true,
+    ribbonTitle: "New",
+  },
+  {
+    title: "Emi Calculator",
+    link: "emi-calculator",
+    isNew: true,
+    ribbonTitle: "New",
+  },
+  {
+    title: "Score board",
+    link: "score-board",
     isNew: true,
     ribbonTitle: "New",
   },

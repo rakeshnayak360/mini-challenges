@@ -36,6 +36,10 @@
 
 [Count words](https://rakeshnayak360.github.io/mini-challenges/#/count-words)
 
+[EMI calculator](https://rakeshnayak360.github.io/mini-challenges/#/emi-calculator)
+
+[Scoreboard](https://rakeshnayak360.github.io/mini-challenges/#/score-board)
+
 <hr />
 
 ![visitor badge](https://visitor-badge.glitch.me/badge?page_id=rakeshnayak360/mini-challenges.visitor-badge)

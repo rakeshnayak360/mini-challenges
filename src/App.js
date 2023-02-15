@@ -22,6 +22,8 @@ import Guessthenumber from "./mc/guess-the-number";
 import LightDarkmode from "./mc/light-dark";
 import Colorgenerator from "./mc/color-generator";
 import Countwords from "./mc/count-words";
+import EmiCalculator from "./mc/emi-calculator";
+import Scoreboard from "./mc/scoreboard";
 
 function App() {
   return (
@@ -151,6 +153,21 @@ function App() {
             path="/count-words"
             element={
               <Parentcomponent component={<Countwords />} title="Count words" />
+            }
+          />
+          <Route
+            path="/emi-calculator"
+            element={
+              <Parentcomponent
+                component={<EmiCalculator />}
+                title="Emi calculator"
+              />
+            }
+          />
+          <Route
+            path="/score-board"
+            element={
+              <Parentcomponent component={<Scoreboard />} title="Score board" />
             }
           />
         </Routes>

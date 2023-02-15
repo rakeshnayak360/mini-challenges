@@ -20,13 +20,13 @@ li {
   list-style: none;
 }
 
-.buttonGroup {
+.transferList .buttonGroup {
   display: flex;
   flex-direction: column;
   max-width: 100px;
   justify-content: center;
 }
-.buttonGroup button {
+.transferList .buttonGroup button {
   margin: 10px 0;
   cursor: pointer;
   padding: 10px;
@@ -37,10 +37,10 @@ li {
   background-color: blueviolet;
 }
 
-.box {
+.transferList .box {
   text-align: left;
 }
 
-.box li {
+.transferList .box li {
   padding: 10px 0;
 }
