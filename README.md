@@ -40,6 +40,8 @@
 
 [Scoreboard](https://rakeshnayak360.github.io/mini-challenges/#/score-board)
 
+[SIP calculator](https://rakeshnayak360.github.io/mini-challenges/#/sip-calculator)
+
 <hr />
 
 ![visitor badge](https://visitor-badge.glitch.me/badge?page_id=rakeshnayak360/mini-challenges.visitor-badge)

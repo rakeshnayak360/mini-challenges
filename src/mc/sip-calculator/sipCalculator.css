@@ -1,0 +1,32 @@
+.sip-calculator {
+  width: 500px;
+  padding: 20px;
+  max-width: 100%;
+  margin: auto;
+  background: #eaeaea;
+}
+
+.sip-calculator .form-group {
+  margin-bottom: 20px;
+}
+
+.sip-calculator .form-group label {
+  display: block;
+}
+
+.sip-calculator .form-group input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+}
+
+.sip-calculator button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin: 10px 0;
+}

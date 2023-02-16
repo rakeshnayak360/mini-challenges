@@ -24,6 +24,7 @@ import Colorgenerator from "./mc/color-generator";
 import Countwords from "./mc/count-words";
 import EmiCalculator from "./mc/emi-calculator";
 import Scoreboard from "./mc/scoreboard";
+import SipCalculator from "./mc/sip-calculator";
 
 function App() {
   return (
@@ -168,6 +169,15 @@ function App() {
             path="/score-board"
             element={
               <Parentcomponent component={<Scoreboard />} title="Score board" />
+            }
+          />
+          <Route
+            path="/sip-calculator"
+            element={
+              <Parentcomponent
+                component={<SipCalculator />}
+                title="Sip calculator"
+              />
             }
           />
         </Routes>

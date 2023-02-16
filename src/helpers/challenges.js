@@ -67,6 +67,12 @@ const challenges = [
     isNew: true,
     ribbonTitle: "New",
   },
+  {
+    title: "SIP Calculator",
+    link: "sip-calculator",
+    isNew: true,
+    ribbonTitle: "New",
+  },
 ];
 
 export default challenges;
